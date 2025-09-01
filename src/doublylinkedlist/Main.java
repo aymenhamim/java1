@@ -5,6 +5,9 @@ public class Main {
         DoublyLinkedList LL1 = new DoublyLinkedList(1);
 
         LL1.append(2);
+        LL1.append(3);
+
+        System.out.println(LL1.removeLast().value);
 
         LL1.getHead();
         LL1.getTail();
