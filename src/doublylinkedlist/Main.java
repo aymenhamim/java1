@@ -12,12 +12,14 @@ public class Main {
 //        DLL1.removeFirst();
 
 //        System.out.println(DLL1.removeLast().value);
+//        System.out.println(DLL1.get(5).value);
+//        DLL1.set(0, -1);
 
-//        DLL1.getHead();
-//        DLL1.getTail();
-//        DLL1.getLength();
 
-        System.out.println(DLL1.get(5).value);
+        DLL1.getHead();
+        DLL1.getTail();
+        DLL1.getLength();
+
 
     }
 }
