@@ -6,8 +6,9 @@ public class Main {
 
         LL1.append(2);
         LL1.append(3);
+        LL1.prepend(0);
 
-        System.out.println(LL1.removeLast().value);
+//        System.out.println(LL1.removeLast().value);
 
         LL1.getHead();
         LL1.getTail();
