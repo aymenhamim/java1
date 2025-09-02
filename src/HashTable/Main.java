@@ -9,6 +9,7 @@ public class Main {
         myHT.set("tile", 80);
 
         myHT.set("bolts", 150);
+        System.out.println(myHT.get("bolts"));
 
         myHT.printTable();
     }
