@@ -12,7 +12,9 @@ public class Main {
 
         myBST1.insert(81);
 
+        System.out.println(myBST1.contains(47));
 
-        System.out.println("root = " + myBST1.root.left.right.value);
+        System.out.println(myBST1.contains(80));
+
     }
 }
