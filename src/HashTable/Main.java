@@ -2,15 +2,15 @@ package HashTable;
 
 public class Main {
     public static void main(String[] args) {
-        HashTable myHT = new HashTable();
+        HashTable myHashTable = new HashTable();
 
-        myHT.set("age", 21);
-        myHT.set("nails", 100);
-        myHT.set("tile", 80);
+        myHashTable.set("paint", 20);
+        myHashTable.set("bolts", 40);
+        myHashTable.set("nails", 100);
+        myHashTable.set("tile", 50);
+        myHashTable.set("lumber", 80);
 
-        myHT.set("bolts", 150);
-        System.out.println(myHT.get("bolts"));
-
-        myHT.printTable();
+        System.out.println( myHashTable.keys() );
+        myHashTable.printTable();
     }
 }
