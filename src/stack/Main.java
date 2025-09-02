@@ -14,5 +14,9 @@ public class Main {
         Stack1.getHeight();
 
         Stack1.printStack();
+
+        for(int i = 30; i < 37; i++){
+            System.out.print("lesson" + i + " ");
+        }
     }
 }
