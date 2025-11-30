@@ -1,0 +1,12 @@
+package todo;
+
+import java.time.LocalDate;
+
+public class Todo {
+
+	private String task;
+	private boolean isCompeted;
+	private LocalDate dueDate;
+	private LocalDate dateCompleted;
+	
+}

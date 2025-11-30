@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>User Informations</title>
+</head>
+<body bgColor="lightgray">
+
+	<b>Protocol:</b> <%= request.getProtocol() %><br>
+	<b>Scheme:</b> <%= request.getScheme() %><br>
+	<b>ServerName :</b> <%= request.getServerName() %><br>
+	<b>ServerPort :</b> <% out.println(request.getServerPort()); %><br>
+	<b>RemoteAddr :</b> <% out.println(request.getRemoteAddr()); %><br>
+	<b>RemoteHost :</b> <% out.println(request.getRemoteHost()); %><br>
+	<b>Method :</b> <%= request.getMethod() %><br>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>User Informations</title>
+</head>
+<body bgColor="lightgray">
+
+	Protocol: <%= request.getProtocol() %><br>
+	Scheme: <%= request.getScheme() %><br>
+	ServerName : <%= request.getServerName() %><br>
+	ServerPort : <% out.println(request.getServerPort()); %><br>
+	RemoteAddr : <% out.println(request.getRemoteAddr()); %><br>
+	RemoteHost : <% out.println(request.getRemoteHost()); %><br>
+	Method : <%= request.getMethod() %><br>
+
+</body>
+</html>

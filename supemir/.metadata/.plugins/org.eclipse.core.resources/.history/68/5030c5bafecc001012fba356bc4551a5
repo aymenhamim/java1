@@ -1,0 +1,43 @@
+package todo;
+
+import java.time.LocalDate;
+
+
+
+public class Todo {
+
+	private String task;
+	private boolean isCompeted;
+	private LocalDate dueDate;
+	private LocalDate dateCompleted;
+	
+	
+	
+	public String getTask() {
+		return task;
+	}
+	public void setTask(String task) {
+		this.task = task;
+	}
+	public boolean isCompeted() {
+		return isCompeted;
+	}
+	public void setCompeted(boolean isCompeted) {
+		this.isCompeted = isCompeted;
+	}
+	public LocalDate getDueDate() {
+		return dueDate;
+	}
+	public void setDueDate(LocalDate dueDate) {
+		this.dueDate = dueDate;
+	}
+	public LocalDate getDateCompleted() {
+		return dateCompleted;
+	}
+	public void setDateCompleted(LocalDate dateCompleted) {
+		this.dateCompleted = dateCompleted;
+	}
+	
+	
+	
+}
